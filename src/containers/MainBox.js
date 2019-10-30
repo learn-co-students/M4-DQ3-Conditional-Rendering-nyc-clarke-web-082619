@@ -21,16 +21,12 @@ setDisplayMode = (event) =>{
       switch (this.state.displayMode){
         case 'profile':
           return < Profile />
-          break;
         case 'photo':
           return < Photos />
-          break;
         case 'cocktail':
           return < Cocktails />
-          break;
         case 'pokemon':
           return < Pokemon />
-          break;
         default: < Profile />
       }
     } 
